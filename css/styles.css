@@ -1,0 +1,199 @@
+#title{
+    background-color: #ff4c68;
+}
+
+
+/* To change the color of the navbar  */
+/* .navbar-custom {
+    background-color: #D7B7BC;
+} */
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color:wheat;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color:wheat;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: black;
+}
+ 
+
+/* To change the font of h1 tag */
+
+h1{
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    line-height: 1.25;
+    color: wheat;
+    font-weight: bolder;
+}
+
+/* To change the font of h2 tag */
+
+h2{
+    font-family:'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* To change the font of h3 tag */
+
+h3{
+    /* font-family: Montserrat-bold; */
+    line-height: 1.5rem;
+}
+
+/* For menu and pic container */
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* To rotate the first GIF file slightly */
+ 
+.title-image{
+    /* transform: rotate(25deg); */
+    width: 80%;
+    /* position: absolute; */
+    float: right;
+    /* right: 30%; */
+    
+} 
+
+body{
+    /* font-family: Montserrat; */
+}
+
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+
+.nav-item{
+    padding: 0 18px 018px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    /* font-family: Montserrat-light;  */
+}
+
+
+/* Navigation bar */
+
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    
+}
+
+/* Buttons-Download */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* For heart, bullseye & tickmark icons */
+
+.body-icon{
+    color: #ef8172;
+    width: 10px;
+    margin-bottom: 1rem;    
+}
+.body-icon:hover{
+    color: #ff4c68;
+}
+
+/* To change the font in features-para class para */
+
+.features-para{
+    color: black;
+}
+
+#features{
+    padding: 4% 9%;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.feature-box{
+    padding: 4.5%;
+    text-align: center;
+}
+
+/* Testimonial section */
+
+#testimonials{
+   
+    text-align: center;
+    background-color:  #ff4c68;
+    color:wheat;
+}
+
+.testiminials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.carousel-item{
+    padding: 2% 9%;
+}
+
+/* Press section */
+
+#press{
+    background-color:  #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 15px 15px 10px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center; 
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    text-align: center;
+    background-color:  #ff4c68;
+    padding: 2% 2%;
+    /* margin-top: 20px 10px; */
+    color:wheat;
+}
+/* Footer section */
+#footer{
+    text-align: center;
+    padding: 3%;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* Media query for responsive design */
+@media(max-width: 1024){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        
+    }
+}
